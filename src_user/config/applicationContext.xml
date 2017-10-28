@@ -22,10 +22,3 @@
         <property name="mapperInterface" value="com.yihaomen.mybatis.inter.IUserOperation"/>
     </bean>
 </beans>
-
-<servlet-name>log4j</servlet-name>
-<servlet-class>
-org.springframework.web.util.Log4jConfigServlet
-</servlet-class>
-<load-on-startup>1</load-on-startup>
-        </servlet>
